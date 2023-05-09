@@ -8,16 +8,16 @@ import { useState } from "react";
 import magazineInfo from "./magazineInfo";
 
 const Magazine = () => {
-  const megazineTitle = ["달이 네 번 기울고 차는 것을 지구 반대편에서 바라보기", ];
+  const megazineTitle = ["달이 네 번 기울고 차는 것을 지구 반대편에서 바라보기"];
   return (
     <>
       <PaddingContainer>
         <MagazineMainText>4</MagazineMainText>
       </PaddingContainer>
       <ThumbnailContainer>
-        {magazineInfo.map((item, i) => {
+        {magazineInfo.map((item,i) => {
           return (
-            <Link href={`/magazine/${item.id}`} style={{ textDecoration: "none" }}>
+            <Link key={i} href={`/magazine/${item.id}`} style={{ textDecoration: "none" }}>
               <Thumbnail>
                 <MainTextContainer style={{ justifyContent: "flex-end" }}>
                   <ThumbnailText>{item.title}</ThumbnailText>
