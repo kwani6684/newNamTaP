@@ -192,7 +192,7 @@ export default function Home() {
         <MagazineImage>
           <Image src={eugine12} alt="" width={400} />
         </MagazineImage>
-        <div style={{ borderBottom: "1px solid black", marginTop: 20 }}></div>
+        <div style={{ borderBottom: "1px solid  black", marginTop: 20 }}></div>
       </MagazinePadding>
     </>
   );
