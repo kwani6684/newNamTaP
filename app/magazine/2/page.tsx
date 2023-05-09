@@ -1,9 +1,8 @@
 "use client";
 import Image from "next/image";
-import YouTube from "react-youtube";
 import magazineInfo from "../magazineInfo";
 import { MainBanner, MainText, MainTextContainer, Dark, MagazineEditor, MagazineTitle, MagazinePadding, MagazineContent } from "../../styled";
-import megazine1main from "../../../public/mainImage2.png";
+
 
 export default function Home() {
   return (
@@ -13,7 +12,7 @@ export default function Home() {
           <MainText style={{ fontSize: 50 }}></MainText>
         </MainTextContainer>
 
-        <Image src={megazine1main} alt="" layout="fill" objectFit="cover" />
+        <Image src={magazineInfo[2].mainImage} alt="" layout="fill" objectFit="cover" />
       </MainBanner>
       <MagazinePadding style={{ fontFamily: "GowunDodum" }}>
         <MagazineEditor>{magazineInfo[2].editor}</MagazineEditor>

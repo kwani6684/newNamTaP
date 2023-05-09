@@ -3,7 +3,7 @@ import thumbnail1 from "../../public/thumbnail1.png";
 import mainImage0 from "../../public/magazine1main.jpg";
 import mainImage1 from "../../public/mainImage1.png";
 import thumbnail2 from '../../public/thumbnail2.jpg';
-import mainImage2 from "../../public/mainImage2.png";
+import mainImage2 from "../../public/mainImage22.png";
 import thumbnail3 from '../../public/thumbnail3.jpeg';
 import mainImage3 from '../../public/mainImage3.png'
 
