@@ -82,7 +82,7 @@ export const IconText = styled.button`
     color: #00b6ff;
   }
   @media screen and (max-width: 500px) {
-    font-size:10px;
+    font-size:11px;
   }
 `;
 //메인배너 스타일링
@@ -102,6 +102,7 @@ export const MainBanner = styled.div`
   @media screen and (max-width: 500px) {
     padding-left:0px;
     padding-right:0px;
+
   }
 `;
 export const MainTextContainer = styled.div`
