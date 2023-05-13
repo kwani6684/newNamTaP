@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import YouTube from "react-youtube";
-import { GowunDodum } from "@/app/layout";
+
 import {
   MainBanner,
   MainText,
@@ -33,10 +33,6 @@ export default function Home() {
   return (
     <>
       <MainBanner>
-        <MainTextContainer>
-          <MainText style={{ fontSize: 50 }}></MainText>
-        </MainTextContainer>
-
         <Image src={megazine1main} alt="" layout="fill" objectFit="cover" />
       </MainBanner>
       <MagazinePadding style={{ fontFamily: "GowunDodum" }}>

@@ -10,6 +10,9 @@ export const Container = styled.div`
 
 export const MainLogo = styled(Image)`
   object-fit: cover;
+  @media screen and (max-width: 500px) {
+    width:30;
+}
 `;
 
 export const Navbar = styled.div`
@@ -19,7 +22,7 @@ export const Navbar = styled.div`
   align-items: center;
   padding: 10px 120px;
   gap: 48px;
-z-index:1;
+  z-index:1;
   position: fixed;
   width: auto;
   height: 60px;
@@ -29,7 +32,8 @@ z-index:1;
 
   background: #000000;
   @media screen and (max-width: 500px) {
-    height: 60px;
+    padding:10px
+    
   }
 `;
 export const RightNav = styled.div`
@@ -40,6 +44,10 @@ export const RightNav = styled.div`
   align-items: center;
   width: 573px;
   gap: 24px;
+  @media screen and (max-width: 500px) {
+    width:100px;
+    
+  }
 `;
 export const LeftNav = styled.div`
   display: flex;
@@ -47,6 +55,11 @@ export const LeftNav = styled.div`
   align-items: center;
   padding: 10px;
   gap: 10px;
+  @media screen and (max-width: 500px) {
+    scale:0.8;
+    gap:0;
+    padding:0;
+  }
 `;
 export const IconText = styled.button`
   all: unset;
@@ -65,6 +78,9 @@ export const IconText = styled.button`
   &:hover {
     color: #00b6ff;
   }
+  @media screen and (max-width: 500px) {
+    font-size:15px;
+  }
 `;
 //메인배너 스타일링
 export const MainBanner = styled.div`
@@ -80,6 +96,10 @@ export const MainBanner = styled.div`
   left: 0px;
   right: 0px;
   background-color: #000000;
+  @media screen and (max-width: 500px) {
+    padding-left:0px;
+    padding-right:0px;
+  }
 `;
 export const MainTextContainer = styled.div`
   display: flex;
@@ -88,6 +108,9 @@ export const MainTextContainer = styled.div`
   justify-content: center;
   align-items: flex-start;
   padding: 0px;
+  @media screen and (max-width: 500px) {
+    scale:0.7
+  }
 `;
 export const MainText = styled.div`
   font-family: "Inter";
@@ -141,6 +164,10 @@ export const Thumbnail = styled.div`
     background-color: unset;
     transition: all 1s;
   }
+  @media screen and (max-width: 500px) {
+    width:80vw;
+    margin-top:20px;
+  }
 `;
 export const ThumbnailText = styled(MainText)`
   font-weight: 500;
@@ -154,11 +181,15 @@ export const Dark = styled.div`
 `;
 //magazine
 export const MagazinePadding = styled(PaddingContainer)`
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 15vw;
+  padding-right: 15vw;
   padding-top: 50px;
   text-align:left;
   margin-bottom:300px;
+  @media screen and (max-width: 700px) {
+    
+   padding:10px;
+  }
   
 `;
 export const MagazineTitle = styled(MainText)`
@@ -185,6 +216,9 @@ align-items:center;
 justify-content:center;
 display:flex;
 margin-bottom:10px;
+@media screen and (max-width: 500px) {
+  scale:0.7
+}
 `
 export const MagazineAnnotation = styled.div`
 align-items:center;

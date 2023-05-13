@@ -19,7 +19,7 @@ export default function Home() {
           <MainText><div style={{color:"#00B6FF"}}>R</div>od</MainText>
         </MainTextContainer>
         <MainTextContainer>
-          <Image src={SILogo} alt=""></Image>
+          <Image src={SILogo} alt="" ></Image>
         </MainTextContainer>
         {/* <Image src={mainbg1} alt="" layout="fill" objectFit="cover" /> */}
       </MainBanner>

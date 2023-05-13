@@ -30,9 +30,7 @@ export default function Home() {
   return (
     <>
       <MainBanner>
-        <MainTextContainer style={{ padding: 180 }}>
-          <MainText style={{ fontSize: 50 }}>{magazineInfo[1].title}</MainText>
-        </MainTextContainer>
+       
 
         <Image src={magazineInfo[1].mainImage} alt="" layout="fill" objectFit="cover" />
       </MainBanner>

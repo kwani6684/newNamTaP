@@ -8,7 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
-export const GowunDodum = Gowun_Dodum({ preload: false,weight:'400' });
+// export const GowunDodum = Gowun_Dodum({ preload: false, weight: "400" });
 
 export const metadata: Metadata = {
   title: "NTLR ",
