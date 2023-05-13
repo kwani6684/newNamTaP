@@ -1,13 +1,7 @@
-html, body {
+body {
   max-width: 100%;
   overflow-x: hidden;
-  }
-
-
-body {
-    margin : 0;
-    /* background-color: #ffffFF; */
-    background-color: rgb(191,222,255);
-    
-    
-  }
+  margin: 0;
+  /* background-color: #ffffFF; */
+  background-color: rgb(191, 222, 255);
+}
