@@ -28,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </LeftNav>
             <RightNav>
               <Link href="/album" style={{ textDecoration: "none" }}>
-                <IconText>Abum</IconText>
+                <IconText>Album</IconText>
               </Link>
 
               <Link href="/magazine" style={{ textDecoration: "none" }}>
