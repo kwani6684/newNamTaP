@@ -32,7 +32,7 @@ export const Navbar = styled.div`
 
   background: #000000;
   @media screen and (max-width: 500px) {
-    padding:10px ;
+    padding:10px 0px;
     gap:0;
     
   }
@@ -58,10 +58,9 @@ export const LeftNav = styled.div`
   gap: 10px;
   @media screen and (max-width: 500px) {
     scale:0.5;
-    gap:0;
-    padding:0;
+    padding-left:0;
     justify-content: flex-start;
-    align-items:flex-start;
+   
   }
 `;
 export const IconText = styled.button`
@@ -113,7 +112,8 @@ export const MainTextContainer = styled.div`
   align-items: flex-start;
   padding: 0px;
   @media screen and (max-width: 500px) {
-    scale:0.5
+    scale:0.5;
+    justify-content:flex-start;
   }
 `;
 export const MainText = styled.div`

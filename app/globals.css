@@ -5,3 +5,7 @@ body {
   /* background-color: #ffffFF; */
   background-color: rgb(191, 222, 255);
 }
+
+html {
+  overflow-x :  hidden;
+}
