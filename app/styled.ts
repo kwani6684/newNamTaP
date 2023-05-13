@@ -32,7 +32,8 @@ export const Navbar = styled.div`
 
   background: #000000;
   @media screen and (max-width: 500px) {
-    padding:10px
+    padding:10px ;
+    gap:0;
     
   }
 `;
@@ -45,7 +46,7 @@ export const RightNav = styled.div`
   width: 573px;
   gap: 24px;
   @media screen and (max-width: 500px) {
-    width:100px;
+    
     
   }
 `;
@@ -56,9 +57,11 @@ export const LeftNav = styled.div`
   padding: 10px;
   gap: 10px;
   @media screen and (max-width: 500px) {
-    scale:0.8;
+    scale:0.5;
     gap:0;
     padding:0;
+    justify-content: flex-start;
+    align-items:flex-start;
   }
 `;
 export const IconText = styled.button`
@@ -79,7 +82,7 @@ export const IconText = styled.button`
     color: #00b6ff;
   }
   @media screen and (max-width: 500px) {
-    font-size:15px;
+    font-size:10px;
   }
 `;
 //메인배너 스타일링
@@ -109,7 +112,7 @@ export const MainTextContainer = styled.div`
   align-items: flex-start;
   padding: 0px;
   @media screen and (max-width: 500px) {
-    scale:0.7
+    scale:0.5
   }
 `;
 export const MainText = styled.div`
