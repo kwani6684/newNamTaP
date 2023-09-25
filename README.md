@@ -1,5 +1,6 @@
 # NamTaP🤖
 
+
 ## 개발자
 
 |      최성관       |
@@ -47,4 +48,6 @@ pnpm dev
 |  <img width="500" alt="스크린샷 2023-06-20 오후 12 51 34" src="https://github.com/kwani6684/newNamTaP/assets/112394220/dc74d4e5-2963-4018-950f-a2b676ea9ac9">|<img width="500" alt="스크린샷 2023-06-20 오후 12 51 41" src="https://github.com/kwani6684/newNamTaP/assets/112394220/30f5e7a6-f831-44bc-84a3-dc9b1c80861f">|
 |  메거진 뷰 1 |  메거진 뷰 2   |  
 | <img width="500" alt="스크린샷 2023-06-20 오후 12 52 16" src="https://github.com/kwani6684/newNamTaP/assets/112394220/835ffd27-9de4-4fbf-a31a-d9a82ad72cc1">|<img width="500" alt="스크린샷 2023-06-20 오후 12 52 03" src="https://github.com/kwani6684/newNamTaP/assets/112394220/e09f19ab-d6d9-4d0a-8a24-19169146f837">|
+
+> ⚠**AWS 로 배포 중이였으나 free tier 해제로 중단상태**
 
